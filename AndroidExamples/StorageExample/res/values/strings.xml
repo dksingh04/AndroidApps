@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">StorageExample</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="first_name">First Name:</string>
+    <string name="first_name_msg">Enter First Name</string>
+    <string name="last_name">Last Name:</string>
+    <string name="last_name_msg">Enter Last Name</string>
+    <string name="submit_text">Submit</string>
+    <string name="preference_file">com.dk.study.storageexample.CONTACT_DETAIL</string>
+    <string name="read_text">Read</string>
+    <string name="fname_key">F_NME</string>
+    <string name="lname_key">L_NME</string>
+    <string name="saveFileExmpl">Save to File</string>
+    <string name="title_activity_saving_files_example">SavingFilesExampleActivity</string>
+    <string name="save_message">Data Saved Successfully in File</string>
+    <string name="save_message_error">Error in Saving data into File</string>
+    <string name="read">Read</string>
+
+</resources>

@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ScrollView 
+        android:id="@+id/nasaimagescroll"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/imageTitle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/nasa_image_title" />
+
+            <TextView
+                android:id="@+id/imagedate"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/nasa_image_date" />
+
+            <ImageView
+                android:id="@+id/imageDisplay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true" />
+
+            <TextView
+                android:id="@+id/imageDescription"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/nasa_image_desc" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:background="#ff8D8D8D"
+        android:padding="5dp" >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onRefresh"
+            android:layout_weight="0"
+            android:text="@string/refresh" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onSetWallPaper"
+            android:layout_weight="0"
+            android:text="@string/set_wallpaper" />
+    </LinearLayout>
+
+</LinearLayout>
